@@ -10,6 +10,7 @@ package studentlist;
  */
 public class PartTime {
     //to know if the student is part time or not.
+    //if credit hour exceeds 12 than, student will be full time otherwise part time.
     private int creditHour;
     
     public PartTime(){
